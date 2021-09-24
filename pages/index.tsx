@@ -4,19 +4,22 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import ScamListContent from "../components/ScamListContent";
+import DummyData from "./api/dummy-data.json";
 
 const Home: NextPage = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    try {
-      fetch("./api/data")
-        .then((response) => response.json())
-        .then((data) => {
-          setData(data);
-        });
-    } catch (error) {
-      console.log(error);
-    }
+    // try {
+    //   fetch("./api/dataaa")
+    //     .then((response) => response.json())
+    //     .then((data) => {
+    //       setData(data);
+    //     });
+    // } catch (error) {
+    //   console.log(error);
+    // }
+    // Will uncomment later once API ready.
+    setData(DummyData);
   }, []);
 
   return (
