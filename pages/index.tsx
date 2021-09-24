@@ -7,7 +7,7 @@ import ScamListContent from "../components/ScamListContent";
 import DummyData from "./api/dummy-data.json";
 
 const Home: NextPage = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState(Array());
   useEffect(() => {
     // try {
     //   fetch("./api/dataaa")
