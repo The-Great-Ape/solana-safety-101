@@ -18,7 +18,7 @@
   justify-content: flex-start;
   overflow: auto;
   align-content: flex-start;
-  padding: 0.5rem 0;
+  padding: 0 0 0.5rem;
 }
 
 @media (min-width: 1028px) {
