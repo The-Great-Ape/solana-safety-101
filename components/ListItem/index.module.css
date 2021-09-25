@@ -15,12 +15,16 @@
   padding: 0.5rem 1rem;
 }
 
-.container:nth-child(even) .innerContainer {
+.container:nth-child(odd) .innerContainer {
   background-color: #06090b;
 }
 
 .isScam {
   color: #efff04;
+}
+
+.isScam .status {
+  font-style: italic;
 }
 
 .status {

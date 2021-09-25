@@ -1,0 +1,44 @@
+.container {
+  color: #dc1ff1;
+  width: 100%;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+  font-weight: bold;
+  background-color: #1a2734;
+}
+
+.container:not(:first-child) {
+  display: none;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 0;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.domain {
+  color: #03e1ff;
+}
+
+.status {
+  padding-left: 0.5rem;
+}
+
+.isScam {
+  color: #efff04;
+  font-style: italic;
+}
+
+@media (min-width: 1028px) {
+  .container:not(:first-child) {
+    display: block;
+  }
+
+  .container {
+    width: 33.333%;
+  }
+}

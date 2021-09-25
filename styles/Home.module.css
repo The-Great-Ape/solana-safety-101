@@ -53,3 +53,16 @@
 .footer img {
   height: 35px;
 }
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.headerImage {
+  height: 25px;
+}
+
+.footerImage {
+  height: 35px;
+}

@@ -2,8 +2,11 @@ import type { NextPage } from "next";
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import classNames from "classnames";
 import styles from "../styles/Home.module.css";
-import ScamListContent from "../components/ScamListContent";
+
+import ListHeader from "../components/ListHeader";
+import ListContent from "../components/ListContent";
 import DummyData from "./api/dummy-data.json";
 
 const Home: NextPage = () => {
@@ -32,16 +35,20 @@ const Home: NextPage = () => {
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
       </Head>
       <header className={styles.header}>
-        <img src="/solana-logo.png" alt="" />
+        <div className={classNames(styles.imageContainer, styles.headerImage)}>
+          <Image src="/solana-logo.png" alt="Solana Logo" layout="fill" objectFit="contain" />
+        </div>
         <h1>Safety 101</h1>
       </header>
       <main className={styles.main}>
-        <ScamListContent data={data} />
+        <ListContent data={data} />
       </main>
 
       <footer className={styles.footer}>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <img src="/grape-logo.png" alt="" />
+        <a href="https://grapes.network/" target="_blank" rel="noopener noreferrer">
+          <div className={classNames(styles.imageContainer, styles.footerImage)}>
+            <Image src="/grape-logo.png" alt="Grape Logo" layout="fill" objectFit="contain" />
+          </div>
         </a>
       </footer>
     </div>

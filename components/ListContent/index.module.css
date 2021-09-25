@@ -1,4 +1,15 @@
 .container {
+  max-width: 1440px;
+  align-self: center;
+  width: 100%;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.innerContainer {
   background-color: #1a2734;
   box-sizing: border-box;
   display: flex;
@@ -6,15 +17,12 @@
   align-items: flex-start;
   justify-content: flex-start;
   overflow: auto;
-  max-width: 1440px;
-  align-self: center;
-  width: 100%;
   align-content: flex-start;
   padding: 0.5rem 0;
 }
 
 @media (min-width: 1028px) {
-  .container {
-    height: 1000px;
+  .innerContainer {
+    height: 920px;
   }
 }

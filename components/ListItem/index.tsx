@@ -1,13 +1,13 @@
 import React from "react";
-import styles from "./ScamListItem.module.css";
+import styles from "./index.module.css";
 import classNames from "classnames";
 
-const ScamListItem = (props: any) => {
+const ListItem = (props: any) => {
   const { domain, status, spacing } = props;
   return (
     <div
       className={classNames(styles.container, {
-        [styles.isScam]: status === "scam" && true,
+        [styles.isScam]: status === "Scam" && true,
       })}
     >
       <div className={styles.innerContainer}>
@@ -23,4 +23,4 @@ const ScamListItem = (props: any) => {
     </div>
   );
 };
-export default ScamListItem;
+export default ListItem;
