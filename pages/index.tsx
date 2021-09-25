@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import classNames from "classnames";
 import styles from "../styles/Home.module.css";
+import _ from "lodash";
 
 import ListHeader from "../components/ListHeader";
 import ListContent from "../components/ListContent";
@@ -21,7 +22,7 @@ const Home: NextPage = () => {
     //   console.log(error);
     // }
     // Will uncomment later once API ready.
-    setData(DummyData);
+    setData(_.sortBy(DummyData, ["domain", "status"], ["asc", "asc"]));
   }, []);
 
   return (
