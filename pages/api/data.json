@@ -6,7 +6,8 @@
   [
     { "domain": "solscan.io", "status": "Real" },
     { "domain": "solanabeach.io", "status": "Real" },
-    { "domain": "ftx.com | ftx.us", "status": "Real" },
+    { "domain": "ftx.com", "status": "Real" },
+    { "domain": "ftx.us", "status": "Real" },
     { "domain": "dexlab.space", "status": "Real" }
   ],
   [
