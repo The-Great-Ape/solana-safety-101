@@ -28,7 +28,7 @@
 
 @media (min-width: 768px) {
   .innerContainer {
-    max-height: 1500px;
+    max-height: 1500px; /* Adjust this value for everytime the content is overflowed */
   }
 
   .groupContainer {
@@ -38,7 +38,7 @@
 
 @media (min-width: 1024px) {
   .innerContainer {
-    max-height: 1080px;
+    max-height: 1080px; /* Adjust this value for everytime the content is overflowed */
   }
 
   .groupContainer {

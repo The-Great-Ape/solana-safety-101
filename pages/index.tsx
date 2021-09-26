@@ -37,10 +37,27 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Solana Safety 101</title>
-        <meta name="description" content="Community maintained phishing and scams list." />
+        <meta name="description" content="Community maintained phishing and scams list to for safety and delightful Solana experience." />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Community maintained phishing and scams list to for safety and delightful Solana experience." />
+        <meta property="og:url" content="https://solana-safety-101.pages.dev/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Solana Safety 101" />
+        <meta property="og:description" content="Community maintained phishing and scams list to for safety and delightful Solana experience." />
+        <meta property="og:image" itemProp="image" content="https://solana-safety-101.pages.dev/og-image.png" />
+        <meta property="og:image:secure_url" content="https://solana-safety-101.pages.dev/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@grapeprotocol" />
+        <meta name="twitter:creator" content="@grapeprotocol" />
+        <meta name="twitter:url" content="https://solana-safety-101.pages.dev/" />
+        <meta name="twitter:title" content="Solana Safety 101" />
+        <meta name="twitter:description" content="Community maintained phishing and scams list to for safety and delightful Solana experience." />
+        <meta name="twitter:image" content="https://solana-safety-101.pages.dev/og-image.png" />
       </Head>
       <a href="https://github.com/The-Great-Ape/solana-safety-101" target="_blank" className={styles.forkMe} rel="noreferrer">
         <img loading="lazy" width="129" height="129" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" className="right-0 absolute top-0 max-w-full" alt="Fork me on GitHub" data-recalc-dims="1" />
