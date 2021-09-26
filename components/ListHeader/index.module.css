@@ -33,8 +33,18 @@
   font-style: italic;
 }
 
-@media (min-width: 1028px) {
-  .container:not(:first-child) {
+@media (min-width: 768px) {
+  .container:not(:nth-child(2)) {
+    display: block;
+  }
+
+  .container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container:not(:nth-child(3)) {
     display: block;
   }
 

@@ -21,8 +21,27 @@
   padding: 0 0 0.5rem;
 }
 
-@media (min-width: 1028px) {
+.groupContainer {
+  margin-bottom: 34px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
   .innerContainer {
-    height: 920px;
+    max-height: 1500px;
+  }
+
+  .groupContainer {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .innerContainer {
+    max-height: 1080px;
+  }
+
+  .groupContainer {
+    width: 33.333%;
   }
 }

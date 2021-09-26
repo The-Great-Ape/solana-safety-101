@@ -13,8 +13,12 @@ const ListContent = (props: any) => {
         <ListHeader />
       </div>
       <div className={styles.innerContainer}>
-        {data.map((item: any, key: any) => (
-          <ListItem key={key} {...item} />
+        {data.map((items: any, key: any) => (
+          <div key={key} className={styles.groupContainer}>
+            {items.map((item: any, key: any) => (
+              <ListItem key={key} {...item} />
+            ))}
+          </div>
         ))}
       </div>
     </div>

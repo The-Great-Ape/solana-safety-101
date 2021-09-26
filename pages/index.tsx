@@ -3,17 +3,16 @@ import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import classNames from "classnames";
 import styles from "../styles/Home.module.css";
-import _ from "lodash";
 
 import ListHeader from "../components/ListHeader";
 import ListContent from "../components/ListContent";
-import DummyData from "./api/dummy-data.json";
+import Data from "./api/data.json";
 
 const Home: NextPage = () => {
   const [data, setData] = useState(Array());
   useEffect(() => {
     // try {
-    //   fetch("./api/dataaa")
+    //   fetch("./api/data")
     //     .then((response) => response.json())
     //     .then((data) => {
     //       setData(data);
@@ -21,8 +20,8 @@ const Home: NextPage = () => {
     // } catch (error) {
     //   console.log(error);
     // }
-    // Will uncomment later once API ready.
-    setData(_.sortBy(DummyData, ["domain", "status"], ["asc", "asc"]));
+
+    setData(Data);
   }, []);
 
   return (
@@ -34,6 +33,9 @@ const Home: NextPage = () => {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
       </Head>
+      <a href="https://github.com/The-Great-Ape/solana-safety-101" target="_blank" className={styles.forkMe} rel="noreferrer">
+        <img loading="lazy" width="129" height="129" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" className="right-0 absolute top-0 max-w-full" alt="Fork me on GitHub" data-recalc-dims="1" />
+      </a>
       <header className={styles.header}>
         <div className={classNames(styles.imageContainer, styles.headerImage)}>
           <img src="/solana-logo.png" alt="Solana Logo" />
@@ -45,7 +47,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://grapes.network/" target="_blank" rel="noopener noreferrer">
+        <a href="https://grapes.network/" target="_blank" rel="noreferrer">
           <div className={classNames(styles.imageContainer, styles.footerImage)}>
             <img src="/grape-logo.png" alt="Grape Logo" />
           </div>
