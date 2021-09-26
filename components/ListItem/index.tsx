@@ -15,7 +15,15 @@ const ListItem = (props: any) => {
           <>&nbsp;</>
         ) : (
           <>
-            <div className={styles.domain}>{domain}</div>
+            <div className={styles.domain}>
+              {status === "Real" ? (
+                <a href={`https://www.${domain}`} className={styles.link} target="_blank" rel="noreferrer">
+                  {domain}
+                </a>
+              ) : (
+                domain
+              )}
+            </div>
             <div className={styles.status}>{status}</div>
           </>
         )}

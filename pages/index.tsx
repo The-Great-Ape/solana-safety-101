@@ -9,20 +9,29 @@ import ListContent from "../components/ListContent";
 import Data from "./api/data.json";
 
 const Home: NextPage = () => {
-  const [data, setData] = useState(Array());
-  useEffect(() => {
-    // try {
-    //   fetch("./api/data")
-    //     .then((response) => response.json())
-    //     .then((data) => {
-    //       setData(data);
-    //     });
-    // } catch (error) {
-    //   console.log(error);
-    // }
+  // const [data, setData] = useState(Array());
+  // const [isLoading, setLoading] = useState(true);
+  // useEffect(() => {
+  //   // 1st approach
+  //   try {
+  //     fetch("./api/data")
+  //       .then((response) => response.json())
+  //       .then((data) => {
+  //         setData(data);
+  //       });
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
 
-    setData(Data);
-  }, []);
+  //   // 2nd approach
+  //   setTimeout(() => {
+  //     setData(Data);
+  //     setLoading(false);
+  //   }, 1000);
+  // }, []);
+
+  const [data, setData] = useState(Data);
+  const [isLoading, setLoading] = useState(false);
 
   return (
     <div className={styles.container}>
@@ -43,7 +52,26 @@ const Home: NextPage = () => {
         <h1>Safety 101</h1>
       </header>
       <main className={styles.main}>
-        <ListContent data={data} />
+        {isLoading ? (
+          <div className={styles.spinnerContainer}>
+            <div className={styles.spinner}>
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+            </div>
+          </div>
+        ) : (
+          <ListContent data={data} />
+        )}
       </main>
 
       <footer className={styles.footer}>

@@ -17,3 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## How to Update the List
 
 To update the verified and scam site list, you can make PR on this file [data.json](https://github.com/The-Great-Ape/solana-safety-101/blob/main/pages/api/data.json).
+
+## Chrome/Brave Extension
+
+You can find the Web Extension in this [repository](https://github.com/The-Great-Ape/solana-safety-101-web-extension).

@@ -28,3 +28,7 @@
 .status {
   padding-left: 0.5rem;
 }
+
+.link:hover {
+  text-decoration: underline !important;
+}
