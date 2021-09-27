@@ -38,7 +38,8 @@
     { "domain": "raydlum.io", "status": "Scam" },
     { "domain": "raydium.me", "status": "Scam" },
     { "domain": "raydium.ws", "status": "Scam" },
-    { "domain": "raydium.network", "status": "Scam" }
+    { "domain": "raydium.network", "status": "Scam" },
+    { "domain": "raydium.news", "status": "Scam" }
   ],
   [
     { "domain": "grapes.network", "status": "Real" },
