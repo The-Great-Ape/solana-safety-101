@@ -51,7 +51,8 @@
     { "domain": "staratlas.com", "status": "Real" },
     { "domain": "starsatlas.com", "status": "Scam" },
     { "domain": "staratlas.art", "status": "Scam" },
-    { "domain": "staratlas.app", "status": "Scam" }
+    { "domain": "staratlas.app", "status": "Scam" },
+    { "domain": "staratias.app", "status": "Scam" }
   ],
   [
     { "domain": "degenape.academy", "status": "Real" },
