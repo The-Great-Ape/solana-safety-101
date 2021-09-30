@@ -1,7 +1,8 @@
 [
   [
     { "domain": "solana.com", "status": "Real" },
-    { "domain": "solana.cm", "status": "Scam" }
+    { "domain": "solana.cm", "status": "Scam" },
+    { "domain": "solanarope.com", "status": "Scam" }
   ],
   [
     { "domain": "solscan.io", "status": "Real" },
