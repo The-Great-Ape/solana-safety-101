@@ -10,38 +10,40 @@
 		{
 			"domain": "solanarope.com",
 			"status": "Scam"
+		},
+		{
+			"domain": "solanaoutage.com",
+			"status": "Scam"
 		}
 	],
 	[{
-			"domain": "solscan.io",
-			"status": "Real"
-		},
-		{
-			"domain": "solanabeach.io",
-			"status": "Real"
-		},
-		{
-			"domain": "ftx.com",
-			"status": "Real"
-		},
-		{
-			"domain": "ftx.us",
-			"status": "Real"
-		},
-		{
-			"domain": "projectserum.com",
-			"status": "Real"
-		},
-		{
-			"domain": "dexlab.space",
-			"status": "Real"
-		},
-		{
-			"domain": "aldrin.com",
-			"status": "Real"
-		}
-
-	],
+		"domain": "solscan.io",
+		"status": "Real"
+	}],
+	[{
+		"domain": "solanabeach.io",
+		"status": "Real"
+	}],
+	[{
+		"domain": "ftx.com",
+		"status": "Real"
+	}],
+	[{
+		"domain": "ftx.us",
+		"status": "Real"
+	}],
+	[{
+		"domain": "projectserum.com",
+		"status": "Real"
+	}],
+	[{
+		"domain": "dexlab.space",
+		"status": "Real"
+	}],
+	[{
+		"domain": "aldrin.com",
+		"status": "Real"
+	}],
 	[{
 			"domain": "phantom.app",
 			"status": "Real"
@@ -64,44 +66,43 @@
 			"status": "Scam"
 		}
 	],
-	[{
-			"domain": "solflare.com",
-			"status": "Real"
-		},
-		{
-			"domain": "sonar.watch",
-			"status": "Real"
-		},
-		{
-			"domain": "step.finance",
-			"status": "Real"
-		},
-		{
-			"domain": "parrot.fi",
-			"status": "Real"
-		},
-		{
-			"domain": "port.finance",
-			"status": "Real"
-		},
-		{
-			"domain": "solfarm.io",
-			"status": "Real"
-		},
-		{
-			"domain": "orca.so",
-			"status": "Real"
-		},
-		{
-			"domain": "solrise.finance",
-			"status": "Real"
-		},
-		{
-			"domain": "marinade.finance",
-			"status": "Real"
-		}
 
-	],
+	[{
+		"domain": "solflare.com",
+		"status": "Real"
+	}],
+	[{
+		"domain": "sonar.watch",
+		"status": "Real"
+	}],
+	[{
+		"domain": "step.finance",
+		"status": "Real"
+	}],
+	[{
+		"domain": "parrot.fi",
+		"status": "Real"
+	}],
+	[{
+		"domain": "port.finance",
+		"status": "Real"
+	}],
+	[{
+		"domain": "solfarm.io",
+		"status": "Real"
+	}],
+	[{
+		"domain": "orca.so",
+		"status": "Real"
+	}],
+	[{
+		"domain": "solrise.finance",
+		"status": "Real"
+	}],
+	[{
+		"domain": "marinade.finance",
+		"status": "Real"
+	}],
 	[{
 			"domain": "audius.co",
 			"status": "Real"
@@ -117,6 +118,15 @@
 		},
 		{
 			"domain": "projectlarix.io",
+			"status": "Scam"
+		}
+	],
+	[{
+			"domain": "matrixetf.finance",
+			"status": "Real"
+		},
+		{
+			"domain": "matrlxetf.finance",
 			"status": "Scam"
 		}
 	],
@@ -158,11 +168,27 @@
 			"status": "Scam"
 		},
 		{
+			"domain": "grapenetwork.app",
+			"status": "Scam"
+		},
+		{
 			"domain": "grapesnetwork.co",
 			"status": "Scam"
 		},
 		{
 			"domain": "grapesnetwork.me",
+			"status": "Scam"
+		},
+		{
+			"domain": "grapenetwork.me",
+			"status": "Scam"
+		},
+		{
+			"domain": "grapesprotocol.app",
+			"status": "Scam"
+		},
+		{
+			"domain": "grapeprotocol.app",
 			"status": "Scam"
 		},
 		{
@@ -183,6 +209,10 @@
 			"status": "Scam"
 		},
 		{
+			"domain": "staratias.art",
+			"status": "Scam"
+		},
+		{
 			"domain": "staratlas.app",
 			"status": "Scam"
 		},
@@ -194,6 +224,10 @@
 	[{
 			"domain": "degenape.academy",
 			"status": "Real"
+		},
+		{
+			"domain": "degensape.academy",
+			"status": "Scam"
 		},
 		{
 			"domain": "degenapes.app",
@@ -218,14 +252,22 @@
 		}
 	],
 	[{
-			"domain": "samoyedcoin.com",
+			"domain": "solstarter.org",
 			"status": "Real"
 		},
 		{
-			"domain": "solanium.io",
-			"status": "Real"
+			"domain": "soistarter.org",
+			"status": "Scam"
 		}
 	],
+	[{
+		"domain": "solanium.io",
+		"status": "Real"
+	}],
+	[{
+		"domain": "samoyedcoin.com",
+		"status": "Real"
+	}],
 	[{
 			"domain": "solbears.com",
 			"status": "Real"
@@ -246,38 +288,40 @@
 		{
 			"domain": "solanio.art",
 			"status": "Scam"
+		},
+		{
+			"domain": "solanarts.com",
+			"status": "Scam"
 		}
 	],
 	[{
-			"domain": "digitaleyes.market",
-			"status": "Real"
-		},
-		{
-			"domain": "metaplex.com",
-			"status": "Real"
-		},
-		{
-			"domain": "holaplex.com",
-			"status": "Real"
-		},
-		{
-			"domain": "magiceden.io",
-			"status": "Real"
-		}
-	],
+		"domain": "digitaleyes.market",
+		"status": "Real"
+	}],
 	[{
-			"domain": "solarians.click",
-			"status": "Real"
-		},
-		{
-			"domain": "solchicks.io",
-			"status": "Real"
-		},
-		{
-			"domain": "kaijucards.io",
-			"status": "Real"
-		}
-	],
+		"domain": "metaplex.com",
+		"status": "Real"
+	}],
+	[{
+		"domain": "holaplex.com",
+		"status": "Real"
+	}],
+	[{
+		"domain": "magiceden.io",
+		"status": "Real"
+	}],
+	[{
+		"domain": "solarians.click",
+		"status": "Real"
+	}],
+	[{
+		"domain": "solchicks.io",
+		"status": "Real"
+	}],
+	[{
+		"domain": "kaijucards.io",
+		"status": "Real"
+	}],
 	[{
 			"domain": "sneks.gg",
 			"status": "Real"
@@ -292,6 +336,10 @@
 		},
 		{
 			"domain": "snek.at",
+			"status": "Scam"
+		},
+		{
+			"domain": "mint-sneks.me",
 			"status": "Scam"
 		}
 	],
