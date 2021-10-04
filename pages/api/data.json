@@ -17,33 +17,40 @@
 		}
 	],
 	[{
-		"domain": "solscan.io",
-		"status": "Real"
-	}],
+			"domain": "solscan.io",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "solanabeach.io",
-		"status": "Real"
-	}],
+			"domain": "solanabeach.io",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "ftx.com",
-		"status": "Real"
-	}],
+			"domain": "ftx.com",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "ftx.us",
-		"status": "Real"
-	}],
+			"domain": "ftx.us",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "projectserum.com",
-		"status": "Real"
-	}],
+			"domain": "projectserum.com",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "dexlab.space",
-		"status": "Real"
-	}],
+			"domain": "dexlab.space",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "aldrin.com",
-		"status": "Real"
-	}],
+			"domain": "aldrin.com",
+			"status": "Real"
+		}
+	],
 	[{
 			"domain": "phantom.app",
 			"status": "Real"
@@ -66,43 +73,52 @@
 			"status": "Scam"
 		}
 	],
-
+	
 	[{
-		"domain": "solflare.com",
-		"status": "Real"
-	}],
+			"domain": "solflare.com",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "sonar.watch",
-		"status": "Real"
-	}],
+			"domain": "sonar.watch",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "step.finance",
-		"status": "Real"
-	}],
+			"domain": "step.finance",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "parrot.fi",
-		"status": "Real"
-	}],
+			"domain": "parrot.fi",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "port.finance",
-		"status": "Real"
-	}],
+			"domain": "port.finance",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "solfarm.io",
-		"status": "Real"
-	}],
+			"domain": "solfarm.io",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "orca.so",
-		"status": "Real"
-	}],
+			"domain": "orca.so",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "solrise.finance",
-		"status": "Real"
-	}],
+			"domain": "solrise.finance",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "marinade.finance",
-		"status": "Real"
-	}],
+			"domain": "marinade.finance",
+			"status": "Real"
+		}
+	],
 	[{
 			"domain": "audius.co",
 			"status": "Real"
@@ -167,7 +183,7 @@
 			"domain": "grapesnetwork.app",
 			"status": "Scam"
 		},
-		{
+			{
 			"domain": "grapenetwork.app",
 			"status": "Scam"
 		},
@@ -261,13 +277,15 @@
 		}
 	],
 	[{
-		"domain": "solanium.io",
-		"status": "Real"
-	}],
+			"domain": "solanium.io",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "samoyedcoin.com",
-		"status": "Real"
-	}],
+			"domain": "samoyedcoin.com",
+			"status": "Real"
+		}
+	],
 	[{
 			"domain": "solbears.com",
 			"status": "Real"
@@ -295,33 +313,40 @@
 		}
 	],
 	[{
-		"domain": "digitaleyes.market",
-		"status": "Real"
-	}],
+			"domain": "digitaleyes.market",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "metaplex.com",
-		"status": "Real"
-	}],
+			"domain": "metaplex.com",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "holaplex.com",
-		"status": "Real"
-	}],
+			"domain": "holaplex.com",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "magiceden.io",
-		"status": "Real"
-	}],
+			"domain": "magiceden.io",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "solarians.click",
-		"status": "Real"
-	}],
+			"domain": "solarians.click",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "solchicks.io",
-		"status": "Real"
-	}],
+			"domain": "solchicks.io",
+			"status": "Real"
+		}
+	],
 	[{
-		"domain": "kaijucards.io",
-		"status": "Real"
-	}],
+			"domain": "kaijucards.io",
+			"status": "Real"
+		}
+	],
 	[{
 			"domain": "sneks.gg",
 			"status": "Real"
@@ -352,15 +377,15 @@
 			"status": "Scam"
 		},
 		{
+			"domain": "nftaurory.com",
+			"status": "Scam"
+		},
+		{
 			"domain": "aurory.me",
 			"status": "Scam"
 		},
 		{
 			"domain": "aurory.ws",
-			"status": "Scam"
-		},
-		{
-			"domain": "nftaurory.com",
 			"status": "Scam"
 		}
 	],
@@ -414,11 +439,20 @@
 		}
 	],
 	[{
-			"domain": "nextverse.world",
+			"domain": "galacticgeckos.app",
 			"status": "Real"
 		},
 		{
-			"domain": "nextverse.app",
+			"domain": "galacticgecko.app",
+			"status": "Scam"
+		}
+	],
+	[{
+			"domain": "redpandasquad.com",
+			"status": "Real"
+		},
+		{
+			"domain": "redpandasquads.com",
 			"status": "Scam"
 		}
 	],
@@ -428,6 +462,15 @@
 		},
 		{
 			"domain": "piggygang.co",
+			"status": "Scam"
+		}
+	],
+	[{
+			"domain": "nextverse.world",
+			"status": "Real"
+		},
+		{
+			"domain": "nextverse.app",
 			"status": "Scam"
 		}
 	],
