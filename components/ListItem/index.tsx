@@ -17,7 +17,7 @@ const ListItem = (props: any) => {
           <>
             <div className={styles.domain}>
               {status === "Real" ? (
-                <a href={`https://www.${domain}`} className={styles.link} target="_blank" rel="noreferrer">
+                <a href={`http://${domain}`} className={styles.link} target="_blank" rel="noreferrer">
                   {domain}
                 </a>
               ) : (

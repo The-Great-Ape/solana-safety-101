@@ -19,6 +19,7 @@
 
 .isScam {
   color: #efff04;
+  cursor: not-allowed;
 }
 
 .isScam .status {
