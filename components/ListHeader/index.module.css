@@ -37,18 +37,10 @@
   .container:not(:nth-child(2)) {
     display: block;
   }
-
-  .container {
-    width: 50%;
-  }
 }
 
 @media (min-width: 1024px) {
   .container:not(:nth-child(3)) {
     display: block;
-  }
-
-  .container {
-    width: 33.333%;
   }
 }
