@@ -1,509 +1,402 @@
 [
-	[{
-			"domain": "solana.com",
-			"status": "Real"
-		},
-		{
-			"domain": "solana.cm",
-			"status": "Scam"
-		},
-		{
-			"domain": "solanarope.com",
-			"status": "Scam"
-		},
-		{
-			"domain": "solanaoutage.com",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "solscan.io",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "solanabeach.io",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "ftx.com",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "ftx.us",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "projectserum.com",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "dexlab.space",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "aldrin.com",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "phantom.app",
-			"status": "Real"
-		},
-		{
-			"domain": "phantomweb.app",
-			"status": "Scam"
-		},
-		{
-			"domain": "phantom telegram groups",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "sollet.io",
-			"status": "Real"
-		},
-		{
-			"domain": "solletweb.io",
-			"status": "Scam"
-		}
-	],
-	
-	[{
-			"domain": "solflare.com",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "sonar.watch",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "step.finance",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "parrot.fi",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "port.finance",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "solfarm.io",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "orca.so",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "solrise.finance",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "marinade.finance",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "audius.co",
-			"status": "Real"
-		},
-		{
-			"domain": "audius-nft.top",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "projectlarix.com",
-			"status": "Real"
-		},
-		{
-			"domain": "projectlarix.io",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "matrixetf.finance",
-			"status": "Real"
-		},
-		{
-			"domain": "matrlxetf.finance",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "raydium.io",
-			"status": "Real"
-		},
-		{
-			"domain": "raydlum.io",
-			"status": "Scam"
-		},
-		{
-			"domain": "raydium.hk",
-			"status": "Scam"
-		},
-		{
-			"domain": "raydium.me",
-			"status": "Scam"
-		},
-		{
-			"domain": "raydium.ws",
-			"status": "Scam"
-		},
-		{
-			"domain": "raydium.news",
-			"status": "Scam"
-		},
-		{
-			"domain": "raydium.network",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "grapes.network",
-			"status": "Real"
-		},
-		{
-			"domain": "grapesnetwork.app",
-			"status": "Scam"
-		},
-			{
-			"domain": "grapenetwork.app",
-			"status": "Scam"
-		},
-		{
-			"domain": "grapesnetwork.co",
-			"status": "Scam"
-		},
-		{
-			"domain": "grapesnetwork.me",
-			"status": "Scam"
-		},
-		{
-			"domain": "grapenetwork.me",
-			"status": "Scam"
-		},
-	 		{
-			"domain": "grapersnetwork.com",
-			"status": "Scam"
-		},
-		{
-			"domain": "grapesprotocol.app",
-			"status": "Scam"
-		},
-		{
-			"domain": "grapeprotocol.app",
-			"status": "Scam"
-		},
-		{
-			"domain": "grape telegram groups",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "staratlas.com",
-			"status": "Real"
-		},
-		{
-			"domain": "starsatlas.com",
-			"status": "Scam"
-		},
-		{
-			"domain": "staratlas.art",
-			"status": "Scam"
-		},
-		{
-			"domain": "staratias.art",
-			"status": "Scam"
-		},
-		{
-			"domain": "staratlas.app",
-			"status": "Scam"
-		},
-		{
-			"domain": "staratias.app",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "degenape.academy",
-			"status": "Real"
-		},
-		{
-			"domain": "degensape.academy",
-			"status": "Scam"
-		},
-		{
-			"domain": "degenapes.app",
-			"status": "Scam"
-		},
-		{
-			"domain": "degenapesacademy.com",
-			"status": "Scam"
-		},
-		{
-			"domain": "degenapes.io",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "solanamonkey.business",
-			"status": "Real"
-		},
-		{
-			"domain": "solanamonkeybusiness.com",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "solstarter.org",
-			"status": "Real"
-		},
-		{
-			"domain": "soistarter.org",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "solanium.io",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "samoyedcoin.com",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "solbears.com",
-			"status": "Real"
-		},
-		{
-			"domain": "soltopia.io",
-			"status": "Real"
-		},
-		{
-			"domain": "soltopia.net",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "solanart.io",
-			"status": "Real"
-		},
-		{
-			"domain": "solanio.art",
-			"status": "Scam"
-		},
-		{
-			"domain": "solanarts.com",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "digitaleyes.market",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "metaplex.com",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "holaplex.com",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "magiceden.io",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "solarians.click",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "solchicks.io",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "kaijucards.io",
-			"status": "Real"
-		}
-	],
-	[{
-		"domain": "solvision.io",
-		"status": "Scam"
-	}],
-	[{
-			"domain": "sneks.gg",
-			"status": "Real"
-		},
-		{
-			"domain": "snek.art",
-			"status": "Scam"
-		},
-		{
-			"domain": "snek.cc",
-			"status": "Scam"
-		},
-		{
-			"domain": "snek.at",
-			"status": "Scam"
-		},
-		{
-			"domain": "mint-sneks.me",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "aurory.io",
-			"status": "Real"
-		},
-		{
-			"domain": "aurorynft.com",
-			"status": "Scam"
-		},
-		{
-			"domain": "nftaurory.com",
-			"status": "Scam"
-		},
-		{
-			"domain": "aurory.me",
-			"status": "Scam"
-		},
-		{
-			"domain": "aurory.ws",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "sollamas.com",
-			"status": "Real"
-		},
-		{
-			"domain": "sollamas.art",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "fancyfrenchienft.com",
-			"status": "Real"
-		},
-		{
-			"domain": "fancyfrenchie.art",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "thugbirdz.com",
-			"status": "Real"
-		},
-		{
-			"domain": "thugbirdz.at",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "solsnatchers.com",
-			"status": "Real"
-		},
-		{
-			"domain": "solsnatchers.at",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "solarmy.io",
-			"status": "Real"
-		},
-		{
-			"domain": "solarmy.app",
-			"status": "Scam"
-		},
-		{
-			"domain": "solarmy.me",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "galacticgeckos.app",
-			"status": "Real"
-		},
-		{
-			"domain": "galacticgecko.app",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "redpandasquad.com",
-			"status": "Real"
-		},
-		{
-			"domain": "redpandasquads.com",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "piggygang.com",
-			"status": "Real"
-		},
-		{
-			"domain": "piggygang.co",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "nextverse.world",
-			"status": "Real"
-		},
-		{
-			"domain": "nextverse.app",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "birbs.art",
-			"status": "Real"
-		},
-		{
-			"domain": "solbirbs.art",
-			"status": "Scam"
-		}
-	],
-	[{
-			"domain": "playground.ink",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "blockbeats.app",
-			"status": "Real"
-		}
-	],
-	[{
-			"domain": "frakt.art",
-			"status": "Real"
-		}
-	]
+  [{
+     "Domain":"solana.com","Status":"Real"  }],
+  [{
+     "Domain":"solana.cm","Status":"Scam"  }],
+  [{
+     "Domain":"solanarope.com","Status":"Scam"  }],
+  [{
+     "Domain":"solanaoutage.com","Status":"Scam"  }],
+  [{
+     "Domain":"forum-solana.com","Status":"Scam"  }],
+  [{
+     "Domain":"forum-solana.support","Status":"Scam"  }],
+  [{
+     "Domain":"forumssolana.com","Status":"Scam"  }],
+  [{
+     "Domain":"solana.finance","Status":"Scam"  }],
+  [{
+     "Domain":"solana.icu","Status":"Scam"  }],
+  [{
+     "Domain":"solana.sytes.net","Status":"Scam"  }],
+  [{
+     "Domain":"solana.to","Status":"Scam"  }],
+  [{
+     "Domain":"solanacompetition.com","Status":"Scam"  }],
+  [{
+     "Domain":"solanaconnect.net","Status":"Scam"  }],
+  [{
+     "Domain":"solanaforums.com","Status":"Scam"  }],
+  [{
+     "Domain":"solanafunds.com","Status":"Scam"  }],
+  [{
+     "Domain":"solanagive.org","Status":"Scam"  }],
+  [{
+     "Domain":"solanasforums.com","Status":"Scam"  }],
+  [{
+     "Domain":"solanawebconnect.online","Status":"Scam"  }],
+  [{
+     "Domain":"solscan.io","Status":"Real"  }],
+  [{
+     "Domain":"solanabeach.io","Status":"Real"  }],
+  [{
+     "Domain":"ftx.com","Status":"Real"  }],
+  [{
+     "Domain":"ftx.us","Status":"Real"  }],
+  [{
+     "Domain":"projectserum.com","Status":"Real"  }],
+  [{
+     "Domain":"dexlab.space","Status":"Real"  }],
+  [{
+     "Domain":"aldrin.com","Status":"Real"  }],
+  [{
+     "Domain":"phantom.app","Status":"Real"  }],
+  [{
+     "Domain":"phantomweb.app","Status":"Scam"  }],
+  [{
+     "Domain":"phantom.rip","Status":"Scam"  }],
+  [{
+     "Domain":"phantom.solar","Status":"Scam"  }],
+  [{
+     "Domain":"phantom.xyz","Status":"Scam"  }],
+  [{
+     "Domain":"phantom-app.link","Status":"Scam"  }],
+  [{
+     "Domain":"phantom-app.online","Status":"Scam"  }],
+  [{
+     "Domain":"phantomapp.org","Status":"Scam"  }],
+  [{
+     "Domain":"phantomc.app","Status":"Scam"  }],
+  [{
+     "Domain":"phantom-exp.com","Status":"Scam"  }],
+  [{
+     "Domain":"phantom-firmware.site","Status":"Scam"  }],
+  [{
+     "Domain":"phantomn.pw","Status":"Scam"  }],
+  [{
+     "Domain":"phantomwallet.net","Status":"Scam"  }],
+  [{
+     "Domain":"phantomwallets.app","Status":"Scam"  }],
+  [{
+     "Domain":"phantomwallets.net","Status":"Scam"  }],
+  [{
+     "Domain":"phantom-web.app","Status":"Scam"  }],
+  [{
+     "Domain":"webextension-phantom.app","Status":"Scam"  }],
+  [{
+     "Domain":"sollet.io","Status":"Real"  }],
+  [{
+     "Domain":"solletweb.io","Status":"Scam"  }],
+  [{
+     "Domain":"solflare.com","Status":"Real"  }],
+  [{
+     "Domain":"sonar.watch","Status":"Real"  }],
+  [{
+     "Domain":"step.finance","Status":"Real"  }],
+  [{
+     "Domain":"parrot.fi","Status":"Real"  }],
+  [{
+     "Domain":"port.finance","Status":"Real"  }],
+  [{
+     "Domain":"solfarm.io","Status":"Real"  }],
+  [{
+     "Domain":"orca.so","Status":"Real"  }],
+  [{
+     "Domain":"solrise.finance","Status":"Real"  }],
+  [{
+     "Domain":"marinade.finance","Status":"Real"  }],
+  [{
+     "Domain":"francium.io","Status":"Real"  }],
+  [{
+     "Domain":"francium-protocol.io","Status":"Real"  }],
+  [{
+     "Domain":"audius.co","Status":"Real"  }],
+  [{
+     "Domain":"audius-nft.top","Status":"Scam"  }],
+  [{
+     "Domain":"projectlarix.com","Status":"Real"  }],
+  [{
+     "Domain":"projectlarix.io","Status":"Scam"  }],
+  [{
+     "Domain":"matrixetf.finance","Status":"Real"  }],
+  [{
+     "Domain":"matrlxetf.finance","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.io","Status":"Real"  }],
+  [{
+     "Domain":"raydlum.io","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.hk","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.me","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.ws","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.news","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.network","Status":"Scam"  }],
+  [{
+     "Domain":"app-raydium.io","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.cc","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.club","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.icu","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.in","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.online","Status":"Scam"  }],
+  [{
+     "Domain":"raydium.space","Status":"Scam"  }],
+  [{
+     "Domain":"raydiumm.io","Status":"Scam"  }],
+  [{
+     "Domain":"raydiumn.io","Status":"Scam"  }],
+  [{
+     "Domain":"rraydium.io","Status":"Scam"  }],
+  [{
+     "Domain":"grapes.network","Status":"Real"  }],
+  [{
+     "Domain":"grapesnetwork.app","Status":"Scam"  }],
+  [{
+     "Domain":"grapenetwork.app","Status":"Scam"  }],
+  [{
+     "Domain":"grapesnetwork.co","Status":"Scam"  }],
+  [{
+     "Domain":"grapesnetwork.me","Status":"Scam"  }],
+  [{
+     "Domain":"grapenetwork.me","Status":"Scam"  }],
+  [{
+     "Domain":"grapesprotocol.app","Status":"Scam"  }],
+  [{
+     "Domain":"grapeprotocol.app","Status":"Scam"  }],
+  [{
+     "Domain":"staratlas.com","Status":"Real"  }],
+  [{
+     "Domain":"starsatlas.com","Status":"Scam"  }],
+  [{
+     "Domain":"staratlas.art","Status":"Scam"  }],
+  [{
+     "Domain":"staratias.art","Status":"Scam"  }],
+  [{
+     "Domain":"staratlas.app","Status":"Scam"  }],
+  [{
+     "Domain":"staratias.app","Status":"Scam"  }],
+  [{
+     "Domain":"degenape.academy","Status":"Real"  }],
+  [{
+     "Domain":"degensape.academy","Status":"Scam"  }],
+  [{
+     "Domain":"degenapes.app","Status":"Scam"  }],
+  [{
+     "Domain":"degenapesacademy.com","Status":"Scam"  }],
+  [{
+     "Domain":"degenapes.io","Status":"Scam"  }],
+  [{
+     "Domain":"solanamonkey.business","Status":"Real"  }],
+  [{
+     "Domain":"solanamonkeybusiness.com","Status":"Scam"  }],
+  [{
+     "Domain":"solstarter.org","Status":"Real"  }],
+  [{
+     "Domain":"soistarter.org","Status":"Scam"  }],
+  [{
+     "Domain":"solanium.io","Status":"Real"  }],
+  [{
+     "Domain":"samoyedcoin.com","Status":"Real"  }],
+  [{
+     "Domain":"solbears.com","Status":"Real"  }],
+  [{
+     "Domain":"soltopia.io","Status":"Real"  }],
+  [{
+     "Domain":"soltopia.net","Status":"Scam"  }],
+  [{
+     "Domain":"solanart.io","Status":"Real"  }],
+  [{
+     "Domain":"solanio.art","Status":"Scam"  }],
+  [{
+     "Domain":"solanarts.com","Status":"Scam"  }],
+  [{
+     "Domain":"digitaleyes.market","Status":"Real"  }],
+  [{
+     "Domain":"metaplex.com","Status":"Real"  }],
+  [{
+     "Domain":"holaplex.com","Status":"Real"  }],
+  [{
+     "Domain":"magiceden.io","Status":"Real"  }],
+  [{
+     "Domain":"solarians.click","Status":"Real"  }],
+  [{
+     "Domain":"solchicks.io","Status":"Real"  }],
+  [{
+     "Domain":"kaijucards.io","Status":"Real"  }],
+  [{
+     "Domain":"solvision.io","Status":"Scam"  }],
+  [{
+     "Domain":"sneks.gg","Status":"Real"  }],
+  [{
+     "Domain":"snek.art","Status":"Scam"  }],
+  [{
+     "Domain":"snek.cc","Status":"Scam"  }],
+  [{
+     "Domain":"snek.at","Status":"Scam"  }],
+  [{
+     "Domain":"mint-sneks.me","Status":"Scam"  }],
+  [{
+     "Domain":"aurory.io","Status":"Real"  }],
+  [{
+     "Domain":"aurorynft.com","Status":"Scam"  }],
+  [{
+     "Domain":"nftaurory.com","Status":"Scam"  }],
+  [{
+     "Domain":"aurory.me","Status":"Scam"  }],
+  [{
+     "Domain":"aurory.ws","Status":"Scam"  }],
+  [{
+     "Domain":"sollamas.com","Status":"Real"  }],
+  [{
+     "Domain":"sollamas.art","Status":"Scam"  }],
+  [{
+     "Domain":"fancyfrenchienft.com","Status":"Real"  }],
+  [{
+     "Domain":"fancyfrenchie.art","Status":"Scam"  }],
+  [{
+     "Domain":"thugbirdz.com","Status":"Real"  }],
+  [{
+     "Domain":"thugbirdz.at","Status":"Scam"  }],
+  [{
+     "Domain":"solsnatchers.com","Status":"Real"  }],
+  [{
+     "Domain":"solsnatchers.at","Status":"Scam"  }],
+  [{
+     "Domain":"solarmy.io","Status":"Real"  }],
+  [{
+     "Domain":"solarmy.app","Status":"Scam"  }],
+  [{
+     "Domain":"solarmy.me","Status":"Scam"  }],
+  [{
+     "Domain":"galacticgeckos.app","Status":"Real"  }],
+  [{
+     "Domain":"galacticgecko.app","Status":"Scam"  }],
+  [{
+     "Domain":"redpandasquad.com","Status":"Real"  }],
+  [{
+     "Domain":"redpandasquads.com","Status":"Scam"  }],
+  [{
+     "Domain":"piggygang.com","Status":"Real"  }],
+  [{
+     "Domain":"piggygang.co","Status":"Scam"  }],
+  [{
+     "Domain":"birbs.art","Status":"Real"  }],
+  [{
+     "Domain":"solbirbs.art","Status":"Scam"  }],
+  [{
+     "Domain":"solbanana.info","Status":"Real"  }],
+  [{
+     "Domain":"solbananas.com","Status":"Scam"  }],
+  [{
+     "Domain":"nextverse.world","Status":"Real"  }],
+  [{
+     "Domain":"nextverse.app","Status":"Scam"  }],
+  [{
+     "Domain":"playground.ink","Status":"Real"  }],
+  [{
+     "Domain":"blockbeats.app","Status":"Real"  }],
+  [{
+     "Domain":"frakt.art","Status":"Real"  }],
+  [{
+     "Domain":"junglecats.io","Status":"Real"  }],
+  [{
+     "Domain":"jungle-cats.io","Status":"Scam"  }],
+  [{
+     "Domain":"jungle-cats.com","Status":"Scam"  }],
+  [{
+     "Domain":"junglecatsnft.com","Status":"Scam"  }],
+  [{
+     "Domain":"junglecatsmint.net","Status":"Scam"  }],
+  [{
+     "Domain":"junglecats.netlify.app","Status":"Scam"  }],
+  [{
+     "Domain":"mint-junglecat.com","Status":"Scam"  }],
+  [{
+     "Domain":"skylinenft.art","Status":"Real"  }],
+  [{
+     "Domain":"skylinenft.io","Status":"Scam"  }],
+  [{
+     "Domain":"skylinenft.net","Status":"Scam"  }],
+  [{
+     "Domain":"skylinenft.store","Status":"Scam"  }],
+  [{
+     "Domain":"saber.so","Status":"Real"  }],
+  [{
+     "Domain":"saber.cx","Status":"Scam"  }],
+  [{
+     "Domain":"saber.so","Status":"Real"  }],
+  [{
+     "Domain":"saber.cx","Status":"Scam"  }],
+  [{
+     "Domain":"solsoulsnft.com","Status":"Real"  }],
+  [{
+     "Domain":"soulsdao.com","Status":"Real"  }],
+  [{
+     "Domain":"solsoulnft.com","Status":"Scam"  }],
+  [{
+     "Domain":"solbananas.com","Status":"Real"  }],
+  [{
+     "Domain":"mango.markets","Status":"Real"  }],
+  [{
+     "Domain":"psyoptions.io","Status":"Real"  }],
+  [{
+     "Domain":"zeta.markets","Status":"Real"  }],
+  [{
+     "Domain":"liqsolana.com","Status":"Real"  }],
+  [{
+     "Domain":"solyetis.io","Status":"Real"  }],
+  [{
+     "Domain":"giveaway-solyetis.io","Status":"Scam"  }],
+  [{
+     "Domain":"discord.com","Status":"Real"  }],
+  [{
+     "Domain":"discordapp.com","Status":"Real"  }],
+  [{
+     "Domain":"discorcd-apps.com","Status":"Scam"  }],
+  [{
+     "Domain":"discordg.link","Status":"Scam"  }],
+  [{
+     "Domain":"disccord-apps.ru","Status":"Scam"  }],
+  [{
+     "Domain":"steam-nltros.com","Status":"Scam"  }],
+  [{
+     "Domain":"discorcl-apps.ru","Status":"Scam"  }],
+  [{
+     "Domain":"exodus.com","Status":"Real"  }],
+  [{
+     "Domain":"exodus.cm","Status":"Scam"  }],
+  [{
+     "Domain":"eexodus.com","Status":"Scam"  }],
+  [{
+     "Domain":"exodusbeta.com","Status":"Scam"  }],
+  [{
+     "Domain":"exodus.com.se","Status":"Scam"  }],
+  [{
+     "Domain":"exodus.uk.com","Status":"Scam"  }],
+  [{
+     "Domain":"exodus.support","Status":"Scam"  }],
+  [{
+     "Domain":"exodus.help","Status":"Scam"  }],
+  [{
+     "Domain":"cexodus.com","Status":"Scam"  }],
+  [{
+     "Domain":"kexodus.com","Status":"Scam"  }],
+  [{
+     "Domain":"oexodus.com","Status":"Scam"  }],
+  [{
+     "Domain":"qexodus.com","Status":"Scam"  }],
+  [{
+     "Domain":"yexodus.com","Status":"Scam"  }],
+  [{
+     "Domain":"isecuredappsbrowser.io","Status":"Scam"  }],
+  [{
+     "Domain":"dappswallets.webflow.io","Status":"Scam"  }]
 ]
