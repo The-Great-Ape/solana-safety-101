@@ -4,21 +4,27 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
+    "start-static": "serve -c serve.json",
     "lint": "next lint"
   },
   "dependencies": {
     "classnames": "^2.3.1",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-data-table-component": "^7.4.5",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@types/react": "17.0.24",
+    "@types/styled-components": "^5.1.16",
+    "babel-plugin-styled-components": "^2.0.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "lodash": "^4.17.21",
+    "serve": "^12.0.1",
     "typescript": "4.4.3"
   }
 }

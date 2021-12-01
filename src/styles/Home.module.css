@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 1.5rem 1.5rem 0 0;
 }
 
 .footer a {
@@ -93,7 +94,7 @@
   animation: spinner 1.2s linear infinite;
 }
 .spinner div:after {
-  content: " ";
+  content: ' ';
   display: block;
   position: absolute;
   top: 3px;
