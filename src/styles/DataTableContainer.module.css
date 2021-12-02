@@ -3,3 +3,38 @@
   margin: 0 auto;
   width: 100%;
 }
+
+.filterComponentWrapper {
+  margin: 0.5rem auto;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  position: relative;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.textField {
+  width: 100%;
+  border-radius: 0;
+  outline: none !important;
+  border: 1px solid #e5e5e5;
+  color: black;
+  padding: 0.5rem 3rem 0.5rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.clearButton {
+  height: 100%;
+  width: 3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 0.875rem;
+  right: 0;
+  color: rgba(0, 0, 0, 0.75);
+  top: 0;
+  border: 0;
+}

@@ -1,47 +1,13 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import DataTable, { createTheme } from 'react-data-table-component';
-import styled from 'styled-components';
-
-const FilterComponentWrapper = styled.div`
-  margin: 0.5rem auto;
-  width: 100%;
-  max-width: 300px;
-  display: block;
-  position: relative;
-  border-radius: 0.25rem;
-  overflow: hidden;
-`;
-
-const TextField = styled.input`
-  width: 100%;
-  border-radius: 0;
-  outline: none !important;
-  border: 1px solid #e5e5e5;
-  color: black;
-  padding: 0.5rem 3rem 0.5rem 0.5rem;
-  font-size: 0.875rem;
-`;
-
-const ClearButton = styled.button`
-  height: 100%;
-  width: 3rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  font-size: 0.875rem;
-  right: 0;
-  color: rgba(0, 0, 0, 0.75);
-  top: 0;
-  border: 0;
-`;
+import styles from '../styles/DataTableContainer.module.css';
 
 const FilterComponent = ({ filterText, onFilter, onClear }: any) => {
   return (
-    <FilterComponentWrapper>
-      <TextField
+    <div className={styles.filterComponentWrapper}>
+      <input
         id="search"
+        className={styles.textField}
         type="text"
         placeholder="Type Domain Name e.g. grape"
         aria-label="Search Input"
@@ -50,11 +16,11 @@ const FilterComponent = ({ filterText, onFilter, onClear }: any) => {
       />
 
       {filterText && (
-        <ClearButton type="button" onClick={onClear}>
+        <button type="button" className={styles.clearButton} onClick={onClear}>
           Clear
-        </ClearButton>
+        </button>
       )}
-    </FilterComponentWrapper>
+    </div>
   );
 };
 
@@ -189,57 +155,71 @@ const DataTableContainer = ({ data }: any) => {
   ];
 
   // Data Customization
-  const columns = [
-    {
-      name: <span style={{ color: '#03e1ff' }}>Domain Name</span>,
-      selector: (row: any) => row.domain,
-      sortable: true,
-      cell: (row: any) => {
-        if (row.status === 'Scam') {
-          return row.domain;
-        }
+  const [columns, setColumns] = useState<any>([]);
+  const [loading, setLoading] = useState(true);
+  const [pending, setPending] = useState(true);
 
-        return (
-          <a href={`http://${row.domain}`} target="_blank" rel="noreferrer">
-            {row.domain}
-          </a>
-        );
-      },
-    },
-    {
-      name: (
-        <span style={{ wordBreak: 'break-word', overflow: 'visible', zIndex: 999 }}>
-          Real <em style={{ color: '#efff04' }}>or Scam</em>
-        </span>
-      ),
-      selector: (row: any) => row.status,
-      sortable: true,
-      cell: (row: any) => {
-        if (row.status === 'Scam') {
-          return <em>{row.status}</em>;
-        }
-
-        return row.status;
-      },
-      right: true,
-    },
-  ];
+  useEffect(() => {
+    setLoading(false);
+    const timeout = setTimeout(() => {
+      setColumns([
+        {
+          name: <span style={{ color: '#03e1ff' }}>Domain Name</span>,
+          selector: (row: any) => row.domain,
+          sortable: true,
+          cell: (row: any) => {
+            if (row.status === 'Scam') {
+              return row.domain;
+            }
+            return (
+              <a href={`http://${row.domain}`} target="_blank" rel="noreferrer">
+                {row.domain}
+              </a>
+            );
+          },
+        },
+        {
+          name: (
+            <span style={{ wordBreak: 'break-word', overflow: 'visible', zIndex: 999 }}>
+              Real <em style={{ color: '#efff04' }}>or Scam</em>
+            </span>
+          ),
+          selector: (row: any) => row.status,
+          sortable: true,
+          cell: (row: any) => {
+            if (row.status === 'Scam') {
+              return <em>{row.status}</em>;
+            }
+            return row.status;
+          },
+          right: true,
+        },
+      ]);
+      setPending(false);
+    }, 1000);
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
-    <DataTable
-      columns={columns}
-      data={filteredItems}
-      customStyles={customStyles}
-      conditionalRowStyles={conditionalRowStyles}
-      pagination
-      paginationPerPage={15}
-      paginationComponentOptions={paginationComponentOptions}
-      paginationResetDefaultPage={resetPaginationToggle}
-      subHeader
-      subHeaderComponent={subHeaderComponentMemo}
-      striped
-      theme="dark"
-    />
+    <Fragment>
+      {!loading && (
+        <DataTable
+          columns={columns}
+          data={filteredItems}
+          customStyles={customStyles}
+          conditionalRowStyles={conditionalRowStyles}
+          pagination
+          paginationPerPage={15}
+          paginationComponentOptions={paginationComponentOptions}
+          paginationResetDefaultPage={resetPaginationToggle}
+          subHeader
+          subHeaderComponent={subHeaderComponentMemo}
+          striped
+          theme="dark"
+          progressPending={pending}
+        />
+      )}
+    </Fragment>
   );
 };
 
