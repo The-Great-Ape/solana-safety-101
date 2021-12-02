@@ -1,5 +1,5 @@
 .container {
-  max-width: 960px;
+  max-width: 600px;
   margin: 0 auto;
   width: 100%;
 }
@@ -10,18 +10,21 @@
   max-width: 300px;
   display: block;
   position: relative;
-  border-radius: 0.25rem;
+  border-radius: 4px !important;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .textField {
+  height: 100%;
   width: 100%;
   border-radius: 0;
   outline: none !important;
   border: 1px solid #e5e5e5;
   color: black;
-  padding: 0.5rem 3rem 0.5rem 0.5rem;
+  padding: 8px 24px 8px 8px;
   font-size: 0.875rem;
+  box-sizing: border-box;
 }
 
 .clearButton {
@@ -37,4 +40,5 @@
   color: rgba(0, 0, 0, 0.75);
   top: 0;
   border: 0;
+  box-sizing: border-box;
 }

@@ -84,29 +84,31 @@ const DataTableContainer = ({ data }: any) => {
     subHeader: {
       style: {
         flex: 0,
-        borderRadius: '0 0 0.5rem 0.5rem',
+        borderRadius: '0 0 8px 8px',
         overflow: 'hidden',
       },
     },
     table: {
       style: {
-        borderRadius: '0.5rem',
+        borderRadius: '8px 8px 8px 8px',
         overflow: 'hidden',
       },
     },
     tableWrapper: {
       style: {
-        maxWidth: '960px',
+        maxWidth: '600px',
         margin: '1.5rem auto 0',
         width: '100%',
       },
     },
     pagination: {
       style: {
-        borderRadius: '0 0 0.5rem 0.5rem',
+        position: 'relative' as 'relative',
+        marginTop: '-8px !important',
+        borderRadius: '0 0 8px 8px',
         overflow: 'hidden',
         border: 'none',
-        maxWidth: '960px',
+        maxWidth: '600px',
         margin: '0 auto 1.5rem',
         width: '100%',
       },
@@ -119,7 +121,7 @@ const DataTableContainer = ({ data }: any) => {
     },
     headRows: {
       style: {
-        borderRadius: '0.5rem 0.5rem 0 0',
+        borderRadius: '8px 8px 0 0',
         overflow: 'hidden',
       },
     },
@@ -139,7 +141,6 @@ const DataTableContainer = ({ data }: any) => {
 
   const paginationComponentOptions = {
     selectAllRowsItem: true,
-    noRowsPerPage: true,
   };
 
   const conditionalRowStyles = [
@@ -180,7 +181,7 @@ const DataTableContainer = ({ data }: any) => {
         },
         {
           name: (
-            <span style={{ wordBreak: 'break-word', overflow: 'visible', zIndex: 999 }}>
+            <span style={{ wordBreak: 'break-word', overflow: 'visible' }}>
               Real <em style={{ color: '#efff04' }}>or Scam</em>
             </span>
           ),
@@ -209,9 +210,10 @@ const DataTableContainer = ({ data }: any) => {
           customStyles={customStyles}
           conditionalRowStyles={conditionalRowStyles}
           pagination
-          paginationPerPage={15}
+          paginationPerPage={20}
           paginationComponentOptions={paginationComponentOptions}
           paginationResetDefaultPage={resetPaginationToggle}
+          paginationRowsPerPageOptions={[20, 50, 100]}
           subHeader
           subHeaderComponent={subHeaderComponentMemo}
           striped
