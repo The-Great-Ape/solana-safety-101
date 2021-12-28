@@ -780,6 +780,34 @@
     "status": "Scam"
   },
   {
+    "domain": "fractal.is",
+    "status": "Real"
+  },
+  {
+    "domain": "fractai.is",
+    "status": "Scam"
+  },
+  {
+    "domain": "monkeykingdom.io",
+    "status": "Real"
+  },
+  {
+    "domain": "monkeykingdom.org",
+    "status": "Scam"
+  },
+  {
+    "domain": "baepes-monkeykingdom.io",
+    "status": "Scam"
+  },
+  {
+    "domain": "baepesmonkeykingdom.com",
+    "status": "Scam"
+  },
+  {
+    "domain": "monkeykingdom.mint.app",
+    "status": "Scam"
+  },
+  {
     "domain": "skylinenft.art",
     "status": "Real"
   },
