@@ -99,6 +99,14 @@
     "domain": "aldrin.com",
     "status": "Real"
   },
+      {
+    "domain": "jup.ag",
+    "status": "Real"
+  },
+  {
+    "domain": "drift.trade",
+    "status": "Real"
+  },
   {
     "domain": "phantom.app",
     "status": "Real"
@@ -196,11 +204,35 @@
     "status": "Scam"
   },
   {
+    "domain": "realms.today",
+    "status": "Real"
+  },
+  {
+    "domain": "realms-explorer.com",
+    "status": "Real"
+  },
+  {
+    "domain": "squads.so",
+    "status": "Real"
+  },
+  {
+    "domain": "wum.bo",
+    "status": "Real"
+  },
+  {
+    "domain": "bonfida.com",
+    "status": "Real"
+  },
+  {
     "domain": "sonar.watch",
     "status": "Real"
   },
   {
     "domain": "step.finance",
+    "status": "Real"
+  },
+  {
+    "domain": "genesysgo.com",
     "status": "Real"
   },
   {
@@ -227,12 +259,28 @@
     "domain": "marinade.finance",
     "status": "Real"
   },
+    {
+    "domain": "mango.markets",
+    "status": "Real"
+  },
+    {
+    "domain": "meanfi.com",
+    "status": "Real"
+  },
   {
     "domain": "francium.io",
     "status": "Real"
   },
   {
     "domain": "francium-protocol.io",
+    "status": "Real"
+  },
+   {
+    "domain": "solend.fi",
+    "status": "Real"
+  },
+  {
+    "domain": "jetprotocol.io",
     "status": "Real"
   },
   {
@@ -330,6 +378,10 @@
   {
     "domain": "rraydium.io",
     "status": "Scam"
+  },
+  {
+    "domain": "grape.art",
+    "status": "Real"
   },
   {
     "domain": "grapes.network",
@@ -476,6 +528,10 @@
     "status": "Real"
   },
   {
+    "domain": "defiland.app",
+    "status": "Real"
+  },
+  {
     "domain": "metaplex.com",
     "status": "Real"
   },
@@ -497,6 +553,10 @@
   },
   {
     "domain": "alpha.art",
+    "status": "Real"
+  },
+    {
+    "domain": "solsea.io",
     "status": "Real"
   },
   {
@@ -613,10 +673,6 @@
   },
   {
     "domain": "boryokudragonz.io",
-    "status": "Real"
-  },
-  {
-    "domain": "genesysgo.com",
     "status": "Real"
   },
   {
@@ -836,19 +892,11 @@
     "status": "Real"
   },
   {
-    "domain": "soulsdao.com",
-    "status": "Real"
-  },
-  {
     "domain": "solsoulnft.com",
     "status": "Scam"
   },
   {
     "domain": "solbananas.com",
-    "status": "Real"
-  },
-  {
-    "domain": "mango.markets",
     "status": "Real"
   },
   {
@@ -1128,6 +1176,10 @@
     "status": "Real"
   },
   {
+    "domain": "metapreme.com",
+    "status": "Real"
+  },
+  {
     "domain": "voxpunksclub.com",
     "status": "Real"
   },
@@ -1349,6 +1401,10 @@
   },
   {
     "domain": "soilets.art",
+    "status": "Real"
+  },
+  {
+    "domain": "tulip.garden",
     "status": "Real"
   }
 ]
