@@ -476,6 +476,10 @@
     "status": "Real"
   },
   {
+    "domain": "defiland.app",
+    "status": "Real"
+  },
+  {
     "domain": "metaplex.com",
     "status": "Real"
   },
@@ -1361,6 +1365,10 @@
   },
   {
     "domain": "soilets.art",
+    "status": "Real"
+  },
+  {
+    "domain": "tulip.garden",
     "status": "Real"
   }
 ]
