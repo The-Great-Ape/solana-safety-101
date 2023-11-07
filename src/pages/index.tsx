@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <title>Solana Safety 101</title>
         <meta
           name="description"
-          content="Community maintained phishing and scams list to for safety and delightful Solana experience."
+          content="Community maintained phishing and scams list to for safety and delightful Grape experience."
         />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -27,14 +27,14 @@ const Home: NextPage = () => {
         <meta name="theme-color" content="#000000" />
         <meta
           name="description"
-          content="Community maintained phishing and scams list to for safety and delightful Solana experience."
+          content="Community maintained phishing and scams list to for safety and delightful Grape experience."
         />
         <meta property="og:url" content="https://safety.grapes.network/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Solana Safety 101" />
+        <meta property="og:title" content="Grape Safety 101" />
         <meta
           property="og:description"
-          content="Community maintained phishing and scams list to for safety and delightful Solana experience."
+          content="Community maintained phishing and scams list to for safety and delightful Grape experience."
         />
         <meta
           property="og:image"
@@ -48,10 +48,10 @@ const Home: NextPage = () => {
         <meta name="twitter:site" content="@grapeprotocol" />
         <meta name="twitter:creator" content="@grapeprotocol" />
         <meta name="twitter:url" content="https://safety.grapes.network/" />
-        <meta name="twitter:title" content="Solana Safety 101" />
+        <meta name="twitter:title" content="Grape Safety 101" />
         <meta
           name="twitter:description"
-          content="Community maintained phishing and scams list to for safety and delightful Solana experience."
+          content="Community maintained phishing and scams list to for safety and delightful Grape experience."
         />
         <meta name="twitter:image" content="https://safety.grapes.network/og-image.png" />
       </Head>
@@ -72,9 +72,7 @@ const Home: NextPage = () => {
         />
       </a>
       <header className={styles.header}>
-        <div className={classNames(styles.imageContainer, styles.headerImage)}>
-          <img src="/solana-logo.png" alt="Solana Logo" />
-        </div>
+        
         <h1>Safety 101</h1>
       </header>
       <main className={styles.main}>
